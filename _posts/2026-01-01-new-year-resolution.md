@@ -1,6 +1,6 @@
 ---
 title: "2026 New Year Resolution"
-date: 2026-01-01
+date: 2019-04-18T15:34:30-04:00
 categories:
   - blog
 tags:
