@@ -34,6 +34,7 @@ permalink: /:categories/:title/
 paginate: 10 # amount of posts to show
 paginate_path: /page:num/
 timezone: America/Los_Angeles
+future: true
 
 include:
   - _pages
@@ -61,7 +62,7 @@ plugins:
 
 author:
   name   : "Jason Zhao"
-  bio    : "I’m an undergraduate student majoring in Computer Science at the Paul G. Allen School of Computer Science & Engineering, University of Washington. <br> This site serves as a personal space to record my learning journey and reflect on games, technology, and thoughts that come to mind, and it's intentionally separate from my academic work. <br> You can checkout my academic homepage with the link below."
+  bio    : "I’m an undergraduate student majoring in Computer Science at the Paul G. Allen School of Computer Science & Engineering, University of Washington. <br> This site serves as a personal space to record my learning journey and my ramblings on games, technology, and any other things that come to mind. <br> This page is intentionally separate from my academic work, you can checkout my academic homepage with the link below."
   avatar : "/assets/images/avatar.jpg"
   links:
     - label: "Academic Homepage"

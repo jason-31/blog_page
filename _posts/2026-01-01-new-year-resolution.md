@@ -1,6 +1,6 @@
 ---
 title: "2026 New Year Resolution"
-date: 2019-04-18T15:34:30-04:00
+date: 2026-01-01
 categories:
   - blog
 tags:
@@ -8,4 +8,8 @@ tags:
   - rambling
 ---
 
-I decided to start this site as a starter pack for the year of 2026. I hope I can be more planned for the new year of 2026.
+I decided to start this site as my starter pack for the year of 2026. I've always been trying to be more documented and organized for the papers I read. 
+
+I also have some other new year resolutions:
+- Be more planned for 2026
+- BS/MS admission
