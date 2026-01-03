@@ -1,0 +1,24 @@
+---
+layout: archive
+---
+
+{{ content }}
+
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+
+{% if paginator %}
+  {% assign posts = paginator.posts %}
+{% else %}
+  {% assign posts = site.posts %}
+{% endif %}
+
+{% assign pinned_posts = posts | where: "pinned", true %}
+{% assign normal_posts = posts | where_exp: "p", "p.pinned != true" %}
+{% assign ordered_posts = pinned_posts | concat: normal_posts %}
+
+{% assign entries_layout = page.entries_layout | default: 'list' %}
+<div class="entries-{{ entries_layout }}">
+  {% include documents-collection.html entries=ordered_posts type=entries_layout %}
+</div>
+
+{% include paginator.html %}
