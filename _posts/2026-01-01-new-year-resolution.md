@@ -4,8 +4,7 @@ date: 2026-01-01
 categories:
   - blog
 tags:
-  - life
-  - rambling
+  - Life
 ---
 
 As 2025 have been the best year in my life, I've decided to make 2026 even better! I decide to start this site as my starter pack for the year of 2026. It will serve as an organized directory for my paper notes, diary, and other ramblings that my family don't have the fortune to hear.

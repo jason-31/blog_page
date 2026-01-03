@@ -18,8 +18,15 @@
       </div>
     {% endif %}
     <h2 class="archive__item-title no_toc" itemprop="headline">
-      {% if post.pinned %}
-        <span class="pinned-icon" title="Pinned post">📌</span>
+      {% if post.pinned and page.url == "/" %}
+        <span class="pinned-icon" title="Pinned post" style="font-size: 0.7em;">📌</span>
+
+        <!-- <img
+          src="{{ '/assets/ion-icon/pin-sharp.svg' | relative_url }}"
+          class="pinned-icon"
+          alt="Pinned"
+          style="width:0.85em; height:0.85em; margin-right:0.1em; vertical-align:right; opacity:1.0; color:#ff0000;"
+        > -->
       {% endif %}
 
       {% if post.link %}
