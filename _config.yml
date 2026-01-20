@@ -47,7 +47,7 @@ plugins:
 
 author:
   name   : "Jason Zhao"
-  bio    : "I’m an undergraduate student majoring in Computer Science at the Paul G. Allen School of Computer Science & Engineering, University of Washington. <br> This site serves as a personal space to record my learning journey and other ramblings. <br> This page is intentionally separate from my academic work, you can checkout my academic homepage with the link below."
+  bio    : "I’m an undergraduate student majoring in Computer Science at the Paul G. Allen School of Computer Science & Engineering, University of Washington. <br> This site serves as a personal space to record my learning journey and other ramblings. <br> This page is intentionally separated from the academic side of me, if you are interesetd, you can checkout my academic homepage with the link below."
   avatar : "/assets/images/avatar.jpg"
   links:
     - label: "Academic Homepage"

@@ -13,12 +13,17 @@ For the year of 2026, I've included my new year resolution and life goals below,
 
 ## New Year Resolution
 - Be more planned for 2026
-- Keep good habit of exercising
-- Get more activae on job searches
+- Swimming 6km per week, or other equivalent exercising for 3 hours
+- Regular skin care routine
+- Time management for work and life balance, sleep at least 50 hours per week and 6.5 hours a day
+- Consistent entertainment time everyday, at least 1 hour per day
+- Get more active on job market
+- Tally every single spendings and savings daily
 
 ## Goals of the Year
 These checkboxed should be updated during the year:
 - [ ] UW BS/MS Admission
+- [ ] Get Internship Offer for the Summer
 - [ ] Lose 2kg per month
   - [ ] January
   - [ ] Febrary
