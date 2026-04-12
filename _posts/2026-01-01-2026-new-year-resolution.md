@@ -25,9 +25,9 @@ These checkboxed should be updated during the year:
 - [ ] UW BS/MS Admission
 - [ ] Get Internship Offer for the Summer
 - [ ] Lose 2kg per month
-  - [ ] January
-  - [ ] Febrary
-  - [ ] March
+  - [x] January
+  - [x] Febrary
+  - [x] March
   - [ ] April
   - [ ] May
   - [ ] June
