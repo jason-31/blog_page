@@ -1,1 +1,58 @@
 <link rel="icon" href="{{ '/favicon.ico' | relative_url }}">
+<style>
+  .toc {
+    border: none !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+  }
+  .toc .nav__title {
+    background-color: transparent !important;
+    color: inherit !important;
+    font-weight: bold;
+    padding-left: 0;
+  }
+  .toc .nav__title i {
+    display: none;
+  }
+  .toc__menu,
+  .toc__menu a,
+  .toc__menu li {
+    background-color: transparent !important;
+    border: none !important;
+    font-weight: normal !important;
+  }
+  .toc__menu,
+  .toc__menu ul {
+    list-style: none !important;
+    padding-left: 0 !important;
+  }
+  .toc__menu li {
+    padding-left: 1.2em;
+    position: relative;
+  }
+  .toc__menu li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    top: 0.35em;
+    font-size: 1.5em;
+    line-height: 1;
+  }
+  .toc__menu li li::before {
+    content: "◦";
+  }
+  .toc__menu a {
+    padding: 0.25em 0 !important;
+    display: inline-block !important;
+  }
+</style>
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']]
+    }
+  };
+</script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
