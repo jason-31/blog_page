@@ -2,7 +2,7 @@
 title: "2026 New Year Resolution"
 date: 2026-01-01
 categories:
-  - blog
+  - Blog
 tags:
   - Life
 ---

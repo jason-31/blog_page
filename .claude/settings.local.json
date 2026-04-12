@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -l \"pinned\" /Users/jason/Codes/blog/_posts/*.md)"
+    ]
+  }
+}

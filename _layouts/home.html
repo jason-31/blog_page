@@ -12,9 +12,13 @@ layout: archive
   {% assign posts = site.posts %}
 {% endif %}
 
-{% assign pinned_posts = posts | where: "pinned", true %}
+{% assign pinned_posts = site.posts | where: "pinned", true %}
 {% assign normal_posts = posts | where_exp: "p", "p.pinned != true" %}
-{% assign ordered_posts = pinned_posts | concat: normal_posts %}
+{% if paginator and paginator.page > 1 %}
+  {% assign ordered_posts = normal_posts %}
+{% else %}
+  {% assign ordered_posts = pinned_posts | concat: normal_posts %}
+{% endif %}
 
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 <div class="entries-{{ entries_layout }}">

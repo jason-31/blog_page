@@ -7,8 +7,9 @@
   }
   .toc .nav__title {
     background-color: transparent !important;
-    color: inherit !important;
+    color: #000 !important;
     font-weight: bold;
+    font-size: 1rem !important;
     padding-left: 0;
   }
   .toc .nav__title i {
@@ -20,30 +21,31 @@
     background-color: transparent !important;
     border: none !important;
     font-weight: normal !important;
+    font-size: 0.7rem !important;
+    color: #555 !important;
   }
-  .toc__menu,
-  .toc__menu ul {
+  .toc__menu a {
+    color: #555 !important;
+  }
+  .toc__menu a:hover {
+    color: #000 !important;
+    text-decoration: underline;
+  }
+  .toc__menu {
     list-style: none !important;
     padding-left: 0 !important;
+    margin-left: 0 !important;
+  }
+  .toc__menu ul {
+    list-style: circle outside !important;
+    padding-left: 1.25em !important;
   }
   .toc__menu li {
-    padding-left: 1.2em;
-    position: relative;
-  }
-  .toc__menu li::before {
-    content: "•";
-    position: absolute;
-    left: 0;
-    top: 0.35em;
-    font-size: 1.5em;
-    line-height: 1;
-  }
-  .toc__menu li li::before {
-    content: "◦";
+    display: list-item !important;
   }
   .toc__menu a {
     padding: 0.25em 0 !important;
-    display: inline-block !important;
+    display: inline !important;
   }
 </style>
 <script>
