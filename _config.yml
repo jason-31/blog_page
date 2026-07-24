@@ -9,7 +9,7 @@ minimal_mistakes_skin: default
 search: true
 url: "https://jason-31.com"
 baseurl: ""
-logo: "favicon.ico"
+logo: "icon.png"
 
 # Build settings
 markdown: kramdown
@@ -47,12 +47,15 @@ plugins:
 
 author:
   name   : "Jason Zhao"
-  bio    : "I’m an undergraduate student majoring in Computer Science at Paul G. Allen School of Computer Science & Engineering, University of Washington. <br> This site serves as a personal space to record my learning journey and other ramblings. <br> This site is intentionally separated from the academic side of me, if you are interesetd, please checkout my  <a href='https://www.renjiz2.com' style='text-decoration: underline;'>academic homepage</a>."
+  bio    : "I’m an undergraduate student majoring in Computer Science at Paul G. Allen School of Computer Science & Engineering, University of Washington. <br> This site serves as a personal space to record my learning journey and other ramblings. It is intentionally separated from the academic side of me, if you are interesetd, please checkout my  <a href='https://www.renjiz2.com' style='text-decoration: underline;'>academic homepage</a>."
   avatar : "/assets/images/avatar2.png"
   links:
     - label: "Academic Homepage"
       icon: "fas fa-fw fa-link"
       url: "https://www.renjiz2.com"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=uFWap_YAAAAJ"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/jason-31"

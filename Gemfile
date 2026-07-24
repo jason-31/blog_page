@@ -4,6 +4,12 @@ gem "github-pages", group: :jekyll_plugins
 # gem "jekyll-include-cache", group: :jekyll_plugins
 
 gem "tzinfo-data"
+gem "csv"
+gem "base64"
+gem "logger"
+gem "bigdecimal"
+gem "ostruct"
+gem "webrick"
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
 # If you have any plugins, put them here!
